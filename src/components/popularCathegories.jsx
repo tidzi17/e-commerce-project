@@ -4,6 +4,7 @@ import image from '../../src/assets/firstslide.webp'
 
 const PopularCathegories = () => {
   return (
+    
     <div className='px-2 mt-20 mb-36'>
         <div><h2 className='font-inter uppercase tracking-wider text-base md:text-xl  xl:text-2xl mb-3'>Popular Cathegories</h2></div>
         <div className='flex items-center justify-between gap-3'>
