@@ -27,13 +27,13 @@ const CartLayout = () => {
           ?
           <div>
            <h3 className="uppercase font-italiana tracking-wider text-2xl md:text-2xl">Your cart ({cart.length}) items</h3>
-           <div className='w-11/12   m-auto mt-10 flex flex-col md:flex-row gap-5'>
+           <div className=' w-full xl:w-11/12   m-auto mt-10 flex flex-col md:flex-row gap-5'>
 
-<div className='flex flex-col w-full border-r-[1px] border-black'>
-<div className='w-full  flex flex-col justify-between  h-full  px-6'>
+<div className='flex flex-col w-full md:border-r-[1px] md:border-black'>
+<div className='w-full  flex flex-col justify-between  h-full  md:px-6'>
  {cart.map((prod) => (
        <div key={prod.id} className="border-b-[1px] border-zinc-500 px-1" >
-         <div className="flex items-center md:justify-between h-[180px] md:h-[140px]">
+         <div className="flex items-center justify-between h-[180px] md:h-[140px]">
            <button onClick={() =>
                 dispatch({
                   type: "REMOVE_FROM_CART",
@@ -49,7 +49,7 @@ const CartLayout = () => {
 
            <div className="flex flex-col md:flex-row gap-3 sm:min-w-[20%]  md:justify-between md:w-[90%] xl:w-[70%]">
              
-           <div className="md:min-w-[400px]">
+           <div className="">
              <span className="text-zinc-800 ">{prod.title}</span>
            </div>
 
@@ -61,7 +61,7 @@ const CartLayout = () => {
           <select
             as="select"
             value={prod.qty}
-            className="border-[1px] border-zinc-700 w-14 xl:w-20 rounded-lg px-1"
+            className="bg-transparent font-sans font-thin border-b-[1px] border-black pb-1 outline-none w-14 xl:w-20 px-1"
             onChange={(e) =>
               dispatch({
                 type: "CHANGE_CART_QTY",
@@ -73,7 +73,8 @@ const CartLayout = () => {
             }
           >
             {[...Array(prod.inStock).keys()].map((x) => (
-              <option clas key={x + 1} >{x + 1}</option>
+              <option className=""
+               key={x + 1} >{x + 1}</option>
             ))}
           </select>
           </div>
@@ -91,21 +92,21 @@ const CartLayout = () => {
      {/* COUPON */}
 
  </div>
- <div className='bottom-0 left-0 w-full h-fit '>
-       <h3 className='font-sans font-thin text-2xl'>Have a coupon? Enter your code.</h3>
+ <div className='bottom-0 left-0 w-full h-fit mt-10'>
+       <h3 className='font-sans font-thin text-base md:text-2xl'>Have a coupon? Enter your code.</h3>
        <div className='flex w-full mt-10 gap-5'>
            <input
             placeholder='Enter code'
-            className='outline-none bg-transparent border-b-[1px] border-black w-1/3 h-7 '/>
+            className='outline-none bg-transparent border-b-[1px] border-black w-1/3 md:h-7 '/>
            <button
 
-           className='font-sans font-thin uppercase border-[1px] border-black outline-none text-xl px-6'
+           className='font-sans font-thin uppercase border-[1px] border-black outline-none text-sm md:text-xl px-6'
            >Apply</button>
        </div>
      </div>
 </div>
 
-     <div className='w-[35%]  h-[500px] flex justify-around flex-col'>
+     <div className=' md:w-[45%] lg:w-[35%]  h-[500px] flex justify-around flex-col'>
        <h2 className='font-sans uppercase text-2xl'>Cart totals</h2>
        <div className='flex flex-col gap-6'>
            <div className=' text-base text-zinc-700 font-sans border-t-[1px] border-b-2 border-black flex flex-col gap-4 py-6'>
