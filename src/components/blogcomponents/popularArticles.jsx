@@ -14,7 +14,7 @@ const PopularArticles = () => {
 
   return (
     <section className='w-11/12 m-auto mb-10'>
-      <h2 className='text-5xl font-italiana tracking-wider text-black mb-5 '>Popular articles</h2>
+      <h2 className='text-2xl md:text-3xl lg:text-5xl font-italiana tracking-wider text-black mb-5 '>Popular articles</h2>
       <BlogLayout articleFirst={dataFirst} articlesSecond={dataSecond}/>
       <BlogLayout articleFirst={dataThird} articlesSecond={dataForth}/>
       <BlogLayout articleFirst={dataFifth} articlesSecond={dataSixt}/>

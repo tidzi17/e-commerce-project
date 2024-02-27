@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
   return (
-    <header className='relative w-full   bg-[#f4f0e5]'>
+    <nav className='relative w-full bg-[#f4f0e5] z-40'>
         <div className='left-0 flex m-auto w-full px-5 bg-[#f4f0e5] z-20 fixed items-center justify-between  py-2 md:py-4 text-black '>
           
           <div className='w-fit'>  <a href='/' className='no-underline text-black uppercase font-inter tracking-widest text-2xl xl:text-4xl'>Purely.</a></div>
@@ -86,7 +86,7 @@ const Navbar = () => {
 
         </div> 
 
-    </header>
+    </nav>
   )
 }
 

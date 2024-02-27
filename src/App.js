@@ -35,7 +35,7 @@ function App() {
       </div>
 
       <Footer />
-     <div className='block md:hidden bottom-0 fixed left-0 right-0'>
+     <div className='block md:hidden bottom-0 fixed left-0 right-0 z-40'>
      <MobileBottomBar />
      </div>
     </BrowserRouter>
