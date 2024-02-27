@@ -10,7 +10,6 @@ import { CartState } from '../context/Context';
 const Navbar = () => {
     const { state: { cart, wishlist } } = CartState();
     const [isSideMenuOpen, setMenu] = useState(false);
-    const [isCartOpen, setCart] = useState(false);
 
 
   return (
@@ -62,16 +61,16 @@ const Navbar = () => {
                 <a href='/wishlist'  className='text-xl xl:text-3xl z-10 cursor-pointer'><CiHeart /></a>
                 <span className='bg-primaryBeige text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>{wishlist.length}</span>
             </div>
-            <div className='flex items-center cursor-pointer'>
-                <span onClick={() => setCart(true)}  className=' text-xl xl:text-3xl z-10'><IoBagHandleOutline /></span>
+            <a href='/cart'><div className='flex items-center cursor-pointer'>
+                <span  className=' text-xl xl:text-3xl z-10'><IoBagHandleOutline /></span>
                 <span className='bg-primaryBeige  text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>{cart.length}</span>
-            </div>
+            </div></a>
 
             </div>
 
             
             {/*Sidebar menu CART */}
-            <div  onClick={() => setCart(false)}
+        {/*     <div  onClick={() => setCart(false)}
             className={
                 clsx("fixed h-full transition-all w-screen -translate-x-full  bg-black/50 backdrop-blur-sm top-0 right-0 z-50",
                 isCartOpen ? 'translate-x-0' : 'translate-x-full')}>
@@ -80,8 +79,8 @@ const Navbar = () => {
                 onClick={() => setCart(false)}
                  className="mt-0 mb-8 text-3xl lg:text-4xl cursor-pointer" />
                 <p> t   his is cart</p>
-             </div>
-        </div>
+             </div> */}
+       {/*  </div> */}
 
 
         </div> 
