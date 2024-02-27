@@ -17,13 +17,13 @@ const Home = () => {
       <FirstSectionHome />
       <ParallaxSkincare />
       <FeaturedCaths />
-     {/*  <p className='ml-auto text-[250px] tracking-widest uppercase font-extrabold text-black/10'>
+      <p className='ml-auto text-[70px] md:text-[100px] lg:text-[150px] xl:text-[250px] tracking-widest uppercase font-extrabold text-black/10'>
         Purely.
         </p>
    <SkincareVideo />
      <HighlightedProduct />
      <ParallaxSilk />
-        <SubSection /> */}
+        <SubSection />
     </div>
   )
 }

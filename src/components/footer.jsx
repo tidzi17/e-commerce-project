@@ -40,12 +40,12 @@ export default function Footer() {
     ]
 
   return (
-    <footer className='px-2 md: mb-[70px] w-full h-full md:mb-2'>
-        <div className='w-full h-[60vh] bg-black rounded-2xl px-5 py-5'>
-      <div className='w-full h-[90%] flex flex-col gap-5 items-center justify-center m-auto'>
-        <p className='text-8xl text-white font-inter uppercase tracking-widest font-bold'>Purely.</p>
+    <footer className='px-2 mb-[70px] w-full h-full md:mb-2'>
+        <div className='w-full h-[80vh] md:h-[60vh] bg-black rounded-2xl px-5 py-5'>
+      <div className='w-full h-[90%] flex flex-col gap-5 items-left md:items-center justify-center m-auto'>
+        <p className='text-6xl xl:text-8xl text-white font-inter uppercase tracking-widest font-bold'>Purely.</p>
       
-        <div className='flex items-center gap-5'>
+        <div className='grid grid-cols-2 m450:flex m450:flex-row flex-wrap items-center gap-5'>
         {navlinks.map((d, i) => 
                  <a key={i} href={d.link} className="no-underline text-white font-light  font-inter uppercase text-lg transform duration-300 ease-in-out hover:scale-95 tracking-widest ">{d.label}</a>
                  )}

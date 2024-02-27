@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        m450: { min: "450px" },
+        min375: { max: "376px" },
+        },
       colors: {
         beigeBanner: '#A0816C', //banner
         primaryBeige: '#D1C0A8', //navabar circles

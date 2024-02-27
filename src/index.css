@@ -11,6 +11,22 @@ body{
   background-color: #f4f0e5;
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video {
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+
 .rounded-image{
   border: transparent solid 1px;
   border-radius: 75px 0 75px 0;
@@ -74,8 +90,8 @@ body{
 
 .cta span {
   padding-bottom: 4px;
-  letter-spacing: 4px;
-  padding-right: 15px;
+  letter-spacing: 1px;
+  padding-right: 5px;
  
 }
 
@@ -115,4 +131,13 @@ body{
 .cta:hover .hover-underline-animation:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+@media only screen and (min-width: 768px) {
+  .cta span {
+    padding-bottom: 4px;
+    letter-spacing: 4px;
+    padding-right: 15px;
+   
+  }
 }

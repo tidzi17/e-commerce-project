@@ -5,7 +5,7 @@ import img3 from '../../assets/hair.webp';
 
 export default function FeaturedCaths() {
   return (
-    <section className='w-full  flex  items-center justify-center mb-20'>
+    <section className='w-full  flex  items-center justify-center mb-20 md:mb-10'>
         <div className='lg:w-10/12 xl:w-9/12 h-full flex flex-col  justify-center'>
            <div className='flex flex-col w-fit float-right  ml-auto'>
            <div className='w-[35px] h-[1px] bg-black/70 self-end'></div>
