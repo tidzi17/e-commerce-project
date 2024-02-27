@@ -37,7 +37,7 @@ const BlogLayout = ( {articleFirst, articlesSecond} ) => {
 
                <div className='flex flex-col w-[50%] text-xs ml-5'>
                 <p className='text-black mt-2 font-italiana text-xl tracking-wider'>{article.title}</p>
-                <div className='flex gap-2 text-zinc-400 font-sans font-light text-xs'><p>{article.date}</p><p> {article.author}</p></div>
+                <div className='flex gap-2 text-zinc-400 font-sans font-light text-xs'><p>{article.date} |</p><p> {article.author}</p></div>
                 <p className='text-xs mt-2 font-junge mb-2'>{article.intro}</p>
                 <a href={`/blog/${article.id}`} ><ArrowButton text="Read all"/></a> 
                </div>

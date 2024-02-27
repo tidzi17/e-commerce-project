@@ -40,7 +40,8 @@ export default function Footer() {
     ]
 
   return (
-    <footer className='w-full h-[60vh] bg-black rounded-2xl px-5 py-5'>
+    <footer className='px-2 md: mb-[70px] w-full h-full md:mb-2'>
+        <div className='w-full h-[60vh] bg-black rounded-2xl px-5 py-5'>
       <div className='w-full h-[90%] flex flex-col gap-5 items-center justify-center m-auto'>
         <p className='text-8xl text-white font-inter uppercase tracking-widest font-bold'>Purely.</p>
       
@@ -64,6 +65,7 @@ export default function Footer() {
       </div>
       <div className="w-full mt-auto border-t-[1px] border-zinc-300 m-auto flex items-center pt-2">
      <p className="m-auto text-sm lg:text-base font-sans text-zinc-500">&copy;Designed & Developed by <span className="font-bold text-lg md:text-xl">t.</span></p>
+        </div>
         </div>
     </footer>
   )

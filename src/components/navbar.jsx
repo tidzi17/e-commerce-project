@@ -57,7 +57,7 @@ const Navbar = () => {
 
             <div className='md:flex items-center gap-3 hidden w-fit'>
 
-            <div className='text-xl xl:text-3xl cursor-pointer'><CiUser /></div>
+            <div className='text-xl xl:text-3xl cursor-not-allowed'><CiUser /></div>
             <div className='flex items-center'>
                 <a href='/wishlist'  className='text-xl xl:text-3xl z-10 cursor-pointer'><CiHeart /></a>
                 <span className='bg-primaryBeige text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>{wishlist.length}</span>

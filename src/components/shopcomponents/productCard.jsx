@@ -7,9 +7,9 @@ const ProductCard = ( { prod }) => {
   const { state: { cart, wishlist } } = CartState();
 
   return (
-    <div className='flex flex-col w-fit'>
-      <a href={`/products/${prod.cathegory}/${prod.id}`}  className='rounded-2xl bg-primaryBeige/50 w-[350px] h-[280px] md:h-[450px] flex justify-center items-center '>
-        <img src={prod.url} alt={prod.title} className='h-[80%] md:h-[75%] xl:h-[88%]'/>
+    <div className='flex flex-col  w-[165px] sm:w-[220px]  md:w-[240px] lg:w-[315px]'>
+      <a href={`/products/${prod.cathegory}/${prod.id}`}  className='w-full rounded-2xl bg-primaryBeige/50 h-[220px] md:h-[350px] lg:h-[450px] flex justify-center items-center '>
+        <img src={prod.url} alt={prod.title} className='h-[80%] md:h-[75%] xl:h-[90%]'/>
       </a>
       <div className='flex justify-between'>
 

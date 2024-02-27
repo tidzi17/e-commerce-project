@@ -45,7 +45,7 @@ const SelectedProducts = ( { title, data }) => {
   return (
     <div className='w-full px-2 mb-20 '>
         <div>
-        <h2 className='font-inter uppercase tracking-wider text-base md:text-xl  xl:text-2xl mb-3'>{title}</h2>
+        <h2 className='font-italiana uppercase tracking-wider text-base md:text-xl  xl:text-2xl mb-3'>{title}</h2>
         </div>
       
        <Slider {...settings} className='w-full ml-0 md:ml-2  flex justify-between items-center mt-2'>

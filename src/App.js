@@ -15,11 +15,11 @@ import Article from './pages/article'
 
 function App() {
   return (
-    <div  className='px-5'>
+    <div>
     <BrowserRouter >
       <Navbar />
 
-      <div className='pt-20'>
+      <div className='pt-20 px-2 lg:px-5'>
       <Routes>
       <Route path="/" exact element={<Home />} />
       <Route path="/products" element={<Navigate to="/products/all" replace />} />

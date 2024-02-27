@@ -24,7 +24,7 @@ function ContactForm() {
          />
          <button
          type='submit'
-         className='border-[1px] border-transparent bg-black text-white transform-all ease-in-out duration-500 hover:bg-transparent hover:border-black hover:text-black  w-fit px-10 py-2 text-base font-junge'>
+         className='rounded-xl border-[1px] border-transparent bg-black text-white transform-all ease-in-out duration-500 hover:bg-transparent hover:border-black hover:text-black  w-fit px-10 py-2 text-base font-junge'>
           Submit
          </button>
       </form>
