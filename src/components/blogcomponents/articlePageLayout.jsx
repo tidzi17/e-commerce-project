@@ -13,7 +13,7 @@ const ArticlePageLayout = () => {
     }
 
   return (
-    <section className='w-10/12 m-auto flex flex-col items-left text-left gap-5 mb-20'>
+    <section className='w-full xl:w-10/12 m-auto flex flex-col items-left text-left gap-5 mb-20'>
       <div className='w-full h-[60vh] rounded-2xl'>
         <img src={article.url} alt={article.title} className='w-[100%] h-[100%] object-cover rounded-2xl'/>
       </div>
