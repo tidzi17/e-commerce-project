@@ -9,31 +9,32 @@ import NotFound from './pages/notFound';
 import './index.css'
 import Wishlist from './pages/wishlist';
 import MobileBottomBar from './components/mobileBottomBar';
+import Footer from './components/footer';
+import ProductPage from './pages/productPage';
+import Article from './pages/article'
 
 function App() {
   return (
-    <div  className=' min-h-screen'>
+    <div  className='px-5'>
     <BrowserRouter >
-
-  
-<div className='w-full py-1 text-[0.4rem] md:text-xs  bg-beigeBanner text-zinc-200 uppercase font-inter flex items-center justify-center'>
-      Free shipping for all orders! Only this week!
-      </div>
-
       <Navbar />
 
-      <div>
+      <div className='pt-20'>
       <Routes>
       <Route path="/" exact element={<Home />} />
-      <Route path="/products" exact element={<Shop />} />
+      <Route path="/products" element={<Navigate to="/products/all" replace />} />
+      <Route path="/products/:category" element={<Shop />} />
+      <Route path="/products/:cathegory/:id" element={<ProductPage />} />
       <Route path="/contact" exact element={<Contact />} />
       <Route path="/blog" exact element={<Blog />} />
+      <Route path="/blog/:id" exact element={<Article />} />
       <Route path="/cart" exact element={<Cart />} />
       <Route path="/wishlist" exact element={<Wishlist />} />
       <Route path="*" exact element={<NotFound />} />
       </Routes>
       </div>
 
+      <Footer />
      <div className='block md:hidden bottom-0 fixed left-0 right-0'>
      <MobileBottomBar />
      </div>

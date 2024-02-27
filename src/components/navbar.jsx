@@ -5,16 +5,19 @@ import { IoBagHandleOutline } from "react-icons/io5";
 import { IoCloseOutline } from "react-icons/io5";
 import { MdOutlineMenu } from "react-icons/md";
 import clsx from "clsx";
+import { CartState } from '../context/Context';
 
 const Navbar = () => {
+    const { state: { cart, wishlist } } = CartState();
     const [isSideMenuOpen, setMenu] = useState(false);
     const [isCartOpen, setCart] = useState(false);
 
+
   return (
-    <nav className=''>
-        <div className='flex items-center justify-between px-3 py-2 md:py-4 text-black'>
+    <header className='relative w-full   bg-[#f4f0e5]'>
+        <div className='left-0 flex m-auto w-full px-5 bg-[#f4f0e5] z-20 fixed items-center justify-between  py-2 md:py-4 text-black '>
           
-            <a href='/' className='no-underline text-black uppercase font-inter tracking-widest text-2xl xl:text-4xl'>Bagly.</a>
+          <div className='w-fit'>  <a href='/' className='no-underline text-black uppercase font-inter tracking-widest text-2xl xl:text-4xl'>Purely.</a></div>
 
               {/* Mobile Menu */}
               <div className='md:hidden flex'>
@@ -52,16 +55,16 @@ const Navbar = () => {
 
             </div>
 
-            <div className='md:flex items-center gap-3 hidden'>
+            <div className='md:flex items-center gap-3 hidden w-fit'>
 
             <div className='text-xl xl:text-3xl cursor-pointer'><CiUser /></div>
             <div className='flex items-center'>
-                <span  className='text-xl xl:text-3xl z-10 cursor-pointer'><CiHeart /></span>
-                <span className='bg-primaryBeige text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>2</span>
+                <a href='/wishlist'  className='text-xl xl:text-3xl z-10 cursor-pointer'><CiHeart /></a>
+                <span className='bg-primaryBeige text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>{wishlist.length}</span>
             </div>
             <div className='flex items-center cursor-pointer'>
                 <span onClick={() => setCart(true)}  className=' text-xl xl:text-3xl z-10'><IoBagHandleOutline /></span>
-                <span className='bg-primaryBeige  text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>2</span>
+                <span className='bg-primaryBeige  text-white rounded-full px-2 py-0.5 w-fit h-fit -mt-4 text-xs z-20 -ml-2.5'>{cart.length}</span>
             </div>
 
             </div>
@@ -83,7 +86,7 @@ const Navbar = () => {
 
         </div> 
 
-    </nav>
+    </header>
   )
 }
 

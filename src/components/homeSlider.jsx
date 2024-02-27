@@ -1,4 +1,4 @@
-import { Carousel } from 'flowbite-react';
+
 
 import React from 'react';
 
@@ -56,7 +56,7 @@ const HomeSlider = () => {
   return (
     <div className="relative w-full">
 
-      <div className="relative w-full h-[30vh] md:h-[50vh] xl:h-[70vh] overflow-hidden">
+      <div className="relative w-full h-[30vh] md:h-[50vh] xl:h-[80vh] overflow-hidden">
         {slides.map((slide, index) => (
           <div
             key={slide.id}

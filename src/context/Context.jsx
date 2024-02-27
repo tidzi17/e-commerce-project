@@ -6,9 +6,11 @@ const Cart = createContext();
 
 const Context = ({ children }) => {
   const cartFromStorage = localStorage.getItem('cart');
+  const wishlistFromStorage = localStorage.getItem('wishlist');
   const initialState = {
     products: productsData,
     cart: cartFromStorage ? JSON.parse(cartFromStorage) : [], 
+    wishlist: wishlistFromStorage ? JSON.parse(wishlistFromStorage) : [],
   };
 
   const [state, dispatch] = useReducer(cartReducer, initialState);
@@ -16,6 +18,10 @@ const Context = ({ children }) => {
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(state.cart)); 
   }, [state.cart]);
+
+  useEffect(() => {
+    localStorage.setItem('wishlist', JSON.stringify(state.wishlist));
+  }, [state.wishlist]);
 
   return <Cart.Provider value={{ state, dispatch }}>{children}</Cart.Provider>;
 };

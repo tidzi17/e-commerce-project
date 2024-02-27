@@ -11,9 +11,14 @@ module.exports = {
         secondaryBeige: '#D3CBBF', //cammercial
         black: '#222222', //text
         primaryGrey: '#F2F2F2', //cards bg
+        primaryBrown: '#434040',
+        secondaryGrey: '#5F5959',
+        secondaryBrown: '#413A3A',
       },
       fontFamily: {
         inter: [ 'Inter' ],
+        italiana: [ 'Italiana' ],
+        junge: [ 'Junge' ],
       },
     },
   },

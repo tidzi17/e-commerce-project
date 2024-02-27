@@ -5,9 +5,39 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
 }
 
+body{
+  background-color: #f4f0e5;
+}
+
+.rounded-image{
+  border: transparent solid 1px;
+  border-radius: 75px 0 75px 0;
+  transition: all 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.rounded-image img{
+  border: transparent solid 1px;
+  border-radius: 75px 0 75px 0;
+  transition: all 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+::-webkit-scrollbar {
+  width: 7px; 
+  scrollbar-width: thin; 
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #222222; 
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-track {
+  scrollbar-color: rgb(42, 42, 42); 
+  background-color: #fff rgb(42, 42, 42);
+}
 
 
 
@@ -19,4 +49,70 @@
   src: url('../src/fonts/inter-v13-latin-regular.woff2') format('woff2'); 
 }
 
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/fonts/italiana-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Junge';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/fonts/junge-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+.cta span {
+  padding-bottom: 4px;
+  letter-spacing: 4px;
+  padding-right: 15px;
+ 
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  margin-bottom: 4px;
+  color: currentColor;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  /* color: black; */
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
