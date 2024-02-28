@@ -9,7 +9,7 @@ const ProductCard = ( { prod }) => {
   return (
     <div className='flex flex-col  w-[165px] sm:w-[220px]  md:w-[240px] lg:w-[315px]'>
       <a href={`/products/${prod.cathegory}/${prod.id}`}  className='w-full rounded-2xl bg-primaryBeige/50 h-[220px] md:h-[350px] lg:h-[450px] flex justify-center items-center '>
-        <img src={prod.url} alt={prod.title} className='h-[80%] md:h-[75%] xl:h-[90%]'/>
+        <img src={prod.urls[0]} alt={prod.title} className='h-[80%] md:h-[75%] xl:h-[90%]'/>
       </a>
       <div className='flex justify-between'>
 

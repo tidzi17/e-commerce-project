@@ -42,7 +42,7 @@ const CartLayout = () => {
               } ><TfiClose className="text-2xl"/></button>
            <div className="h-full">
            <a  href={`/products/${prod.cathegory}/${prod.id}`} className="flex items-center justify-center h-full mr-5 md:mr-0 ">
-             <img src={prod.url} alt={prod.title} className="h-[80%] " />
+             <img src={prod.urls[0]} alt={prod.title} className="h-[80%] " />
              {/* className="w-[130px] md:w-[120px]"  */}
            </a>
            </div>

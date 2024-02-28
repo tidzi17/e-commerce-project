@@ -3,9 +3,13 @@
     "id": "LadiesYellowPurse",
     "cathegory": "face",
     "title": "Ladies Hand Purse",
-    "url": "/assets/products/1.png",
+    "urls": [
+      "/assets/products/1.png",
+      "/assets/products/2.png",
+      "/assets/products/3.png"
+    ],
     "price": "200.99",
-    "inStock": 2,
+    "inStock": 10,
     "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
     "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
     "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -13,11 +17,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "hair",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/2.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -25,11 +33,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/3.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -37,11 +49,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/37.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -49,11 +65,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/38.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -61,11 +81,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/6.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -73,11 +97,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/6.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -85,11 +113,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/7.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -97,11 +129,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/8.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -109,11 +145,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/9.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -121,11 +161,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/10.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -133,11 +177,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/11.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -145,11 +193,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/12.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -157,11 +209,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/13.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -169,11 +225,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/14.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -181,11 +241,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/15.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -193,11 +257,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/16.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -205,11 +273,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/17.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -217,11 +289,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/18.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -229,11 +305,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/19.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -241,11 +321,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/20.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -253,11 +337,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/21.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -265,11 +353,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/22.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -277,11 +369,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/13.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -289,11 +385,15 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/24.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
@@ -301,14 +401,134 @@
 },
 {
   "id": "LadiesYellowPurse",
-  "cathegory": "body",
+  "cathegory": "face",
   "title": "Ladies Hand Purse",
-  "url": "/assets/products/25.png",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
   "price": "200.99",
-  "inStock": 2,
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
+  "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
+  "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
+  "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
+  "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
+},
+
+
+{
+  "id": "LadiesYellowPurse",
+  "cathegory": "face",
+  "title": "Ladies Hand Purse",
+  "urls": [
+    "/assets/products/1.png",
+    "/assets/products/2.png",
+    "/assets/products/3.png"
+  ],
+  "price": "200.99",
+  "inStock": 10,
   "cardDescription": "Nourish and strengthen your beard with our Cedarwood Blend Beard Growth Serum.",
   "pageDescription": "Our Cedarwood Blend Beard Growth Serum is formulated with a potent blend of natural oils, including jojoba and argan, enriched with cedarwood essential oil. This serum promotes healthy beard growth, reduces itchiness, and softens coarse hair. Perfect for achieving a fuller, thicker beard.",
   "ingredients": "Jojoba oil, Argan oil, Cedarwood essential oil, Vitamin E.",
   "usage": "Apply a few drops of serum to your fingertips and massage into your beard and the skin beneath. Use daily for best results."
 }
+
+
 ]
