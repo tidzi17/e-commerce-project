@@ -50,7 +50,7 @@ const ProductsLayout = () => {
         <button
           key={i}
           onClick={() => goToPage(i)}
-          className={`bg-secondaryBeige text-base px-3 font-sans py-1 rounded-md mx-1 text-black ${currentPage === i ? 'bg-primaryBeige/20' : ''}`}
+          className={`bg-secondaryBeige text-base px-3 font-sans py-1 rounded-md mx-1 text-black ${currentPage === i ? 'bg-white' : ''}`}
         >
           {i}
         </button>
@@ -111,18 +111,10 @@ const ProductsLayout = () => {
              </div>
         </div>
 
-
-
-
-
-
-
-
-
        {/* PRODUCTS LAYOUT */}
       <div className='w-full flex flex-col'>
         <div className='w-fit flex flex-col justify-center m-auto'>
-          <div className='flex flex-wrap gap-1 md:gap-5 justify-between min845:justify-start items-left m-auto'>
+          <div className='flex flex-wrap gap-1 md:gap-5 justify-between   min845:justify-start items-left m-auto'>
             {currentProducts.map((prod) => (
               <ProductCard
                 prod={prod}
@@ -131,6 +123,7 @@ const ProductsLayout = () => {
                 imageContainerClassName="shadow-zinc-200 shadow-lg border-[1px]"
                 titleClassName="text-zinc-800"
                 priceClassName="text-zinc-700"
+                
               />
             ))}
           </div>
@@ -151,41 +144,3 @@ const ProductsLayout = () => {
 
 export default ProductsLayout;
 
-
-{/* <div className='w-[26%] rounded-2xl bg-black h-[100vh] flex flex-col gap-5 px-5  z-10 text-white'>
-
-<div className='flex items-center mt-16  justify-between w-full'>
-<h4 className='font-sans font-light text-2xl'>Filter Products</h4>
-<span className='text-2xl'><HiOutlineAdjustmentsHorizontal /></span>
-</div>
-
-<div >
-  <h5 className='text-base uppercase'>Select Cathegory</h5>
-  <select value={selectedCategory} onChange={handleCategoryChange} className='mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-white text-base'>
-  <option className='text-black' value="all">All</option>
-  <option className='text-black' value="face">Face</option>
-  <option className='text-black' value="hair">Hair</option>
-  <option className='text-black' value="body">Body</option>
-
-</select>
-</div>
-
-<div >
-  <h5 className='text-base uppercase'>Price</h5>
-  <select value={selectedCategory} onChange={handleCategoryChange} className='mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-white text-base'>
-  <option className='text-black' value="all">Incrase</option>
-  <option className='text-black' value="face">Dicrase</option>
-  
-
-</select>
-</div>
-
-<div >
-  <h5 className='text-base uppercase'>Ratings</h5>
-  <select value={selectedCategory} onChange={handleCategoryChange} className='mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-white text-base'>
-  <option className='text-black' value="all">Incrase</option>
-  <option className='text-black' value="face">Dicrase</option>
-</select>
-</div>
-
-</div> */}

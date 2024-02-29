@@ -2,7 +2,6 @@ import React, { useState }  from 'react'
 import { useParams } from 'react-router-dom';
 import products from '../../data/products.json';
 import { AddToCartButton, AddToWishlist, RemoveFromCartButton, RemoveFromWishlist } from './buttons';
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { CartState } from "../../context/Context";
 import deliveryIcon from '../../assets/icons/shipped.png';
 import refundIcon from '../../assets/icons/product-return.png';
@@ -14,7 +13,7 @@ const SingleProductDetails = () => {
 
 
     const { id } = useParams();
-    const { state: { cart, wishlist }, dispatch  } = CartState();
+    const { state: { cart, wishlist } } = CartState();
     const [product] = useState(products.find(product => product.id === id));
     const [selectedImage, setSelectedImage] = useState(product.urls[0]);
 
@@ -67,7 +66,7 @@ const SingleProductDetails = () => {
                         onClick={changeImage}
                         src={url}
                         alt={`Product ${index + 1}`}
-                        className='h-[90%] w-[25%]'
+                        className='h-[75%] w-[25%]'
                     />
                 </div>
             ))}
@@ -82,8 +81,8 @@ const SingleProductDetails = () => {
                 <p className='font-sans text-black/70  text-lg'>${product.price}</p>
                 </div>
 
-            <div className=' py-5 md:py-0 flex flex-col mt-3 md:mt-0 gap-1 md:gap-2  border-b-[1px] border-white md:border-none'>
-            <p className='font-inter tracking-wider text-base'>{product.cardDescription} , {product.cardDescription}</p>
+            <div className=' py-5 md:py-0 flex flex-col mt-3 md:mt-0 gap-1 md:gap-2  border-b-[1px] border-black md:border-none'>
+            <p className='font-inter tracking-wider text-base'>{product.cardDescription}</p>
            <div className='font-inter text-black/70 text-base'>
            {!product.inStock ?
              <p>Out of Stock</p> 
@@ -95,20 +94,22 @@ const SingleProductDetails = () => {
            </div>
             </div>
 
-            <div className='flex gap-2'>
-            <div className='  md:text-xl mt-7 md:mt-0'>
+            <div className='flex gap-2 h-fit  w-fit'>
+           <div className='flex items-center justify-center gap-5'>
+           <div className='  md:text-xl mt-7 md:mt-0'>
             {isInCart 
-            ? <RemoveFromCartButton prod={product} addButtonStyle="bg-primaryBeige rounded-md px-4 py-1 text-xl font-junge text-zinc-200 border-[2px] border-transparent"/> 
-            : <AddToCartButton prod={product} addButtonStyle="bg-black font-junge rounded-md px-4 py-1 text-xl text-zinc-200 border-[2px] border-transparent transform-all duration-500 ease-in-out hover:bg-white hover:text-black hover:border-black"/>}
+            ? <RemoveFromCartButton prod={product} addButtonStyle="bg-primaryBeige rounded-md h-10 px-4  text-xl font-junge text-zinc-200 border-[2px] border-transparent"/> 
+            : <AddToCartButton prod={product} addButtonStyle="bg-black font-junge rounded-md h-10 px-4 text-xl text-zinc-200 border-[2px] border-transparent transform-all duration-500 ease-in-out hover:bg-white hover:text-black hover:border-black"/>}
             </div>
-            <div className='border-2 border-black flex items-center justify-center px-3 rounded-md'>
+            <div className='mt-auto border-2 border-black flex items-center justify-center h-10 px-4 rounded-md'>
                 {isInWishlist
                 ? <RemoveFromWishlist prod={product} addButtonStyle="text-black text-2xl" />
                 : <AddToWishlist prod={product} addButtonStyle="text-black text-2xl" />
                 }
             </div>
+           </div>
             </div>
-            <div className=' w-full h-[20%] grid grid-cols-3 gap-2'>
+            <div className=' w-full h-[20%] grid grid-cols-3 gap-2 mt-2'>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={deliveryIcon} alt='icon' />
                     <p className='text-base font-sans'>2-4 days delivery</p>

@@ -13,6 +13,7 @@ import Footer from './components/footer';
 import ProductPage from './pages/productPage';
 import Article from './pages/article'
 
+
 function App() {
   return (
     <div>

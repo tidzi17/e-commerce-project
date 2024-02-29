@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { CartState } from '../../context/Context'
-import { AiFillDelete } from "react-icons/ai";
 import { TfiClose } from "react-icons/tfi";
 import ArrowButton from '../arrowbutton';
 
@@ -96,7 +95,7 @@ const CartLayout = () => {
        <h3 className='font-sans font-thin text-base md:text-2xl'>Have a coupon? Enter your code.</h3>
        <div className='flex w-full mt-10 gap-5'>
            <input
-            placeholder='Enter code'
+            placeholder='Try HIREME11'
             className='outline-none bg-transparent border-b-[1px] border-black w-1/3 md:h-7 '/>
            <button
 

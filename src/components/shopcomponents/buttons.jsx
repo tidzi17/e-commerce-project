@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { CartState } from '../../context/Context';
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";

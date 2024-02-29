@@ -14,19 +14,19 @@ const ProductCard = ( { prod }) => {
       <div className='flex justify-between'>
 
        <div className='flex flex-col gap-1'>
-        <p className='uppercase text-xs text-zinc-400'>hand purse</p>
-       <p className='uppercase text-sm text-black'>{prod.title}</p>
-        <p className='text-sm text-black font-semibold'>${prod.price}</p>
+        <p className='uppercase text-xs text-zinc-400'>{prod.cathegory}</p>
+       <p className='uppercase text-xs md:text-sm text-black'>{prod.title}</p>
+        <p className='text-xs md:text-sm text-black font-semibold'>${prod.price}</p>
        </div>
 
        <div className='mt-auto'>
        {
             wishlist.some(p => p.id === prod.id) 
             ? (
-        <RemoveFromWishlist prod={prod} addButtonStyle="text-3xl cursor-pointer text-black"/>
+        <RemoveFromWishlist prod={prod} addButtonStyle="text-xl md:text-3xl cursor-pointer text-black"/>
             )
             : (
-            <AddToWishlist prod={prod} addButtonStyle="text-3xl cursor-pointer text-black"/>
+            <AddToWishlist prod={prod} addButtonStyle="text-xl md:text-3xl cursor-pointer text-black"/>
             )
         }
         
