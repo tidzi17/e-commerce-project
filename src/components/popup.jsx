@@ -31,17 +31,18 @@ const PopUp = () => {
                 <img src={bg} alt='' className='w-[100%] h-[100%] object-cover'/>
             </div>
             
-            <div className='w-1/2 h-full px-5'>
+            <div className='w-1/2 h-full px-1 md:px-5 '>
             <div onClick={handleClose} className='w-fit mt-2  cursor-pointer float-right right-10 text-2xl'><IoCloseOutline /></div>
+            <div className='w-full flex items-center justify-center h-full'>
             <div className='flex flex-col h-full items-center justify-center self-center'>
-                <h2 className='text-4xl text-center font-italiana'>Join our family</h2>
-                <p className='text-center text-zinc-600 font-sans font-thin text-sm md:text-base'>Be first one to find out latest beauty news, offers and promos.</p>
+                <h2 className='text-3xl md:text-4xl text-center font-italiana'>Join our family</h2>
+                <p className='text-center text-zinc-600 font-sans font-thin text-xs md:text-base'>Be first one to find out latest beauty news, offers and promos.</p>
                 <input
                   placeholder='Email adress'
-                  className='w-full h-8 placeholder:font-thin pl-1 mt-5'/>
+                  className='w-full  h-6 md:h-8 placeholder:font-thin pl-1 mt-5'/>
                 <button
-                className='w-full mt-1 h-8 bg-black text-white font-sans font-thin uppercase'
-                >Subscribe</button>
+                className='w-full mt-1 h-6 md:h-8 bg-black text-white font-sans font-thin uppercase'
+                >Subscribe</button> </div>
             </div>
             </div>
           </div>
