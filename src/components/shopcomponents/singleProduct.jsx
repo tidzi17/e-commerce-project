@@ -50,7 +50,7 @@ const SingleProductDetails = () => {
     <div className=''>
           <div className=' w-full px-3 lg:px-24  xl:px-44 pt-5 '>
 
-       <div className=''>
+       <div className='flex flex-col gap-10'>
       <div className='flex flex-col md:flex-row'>
 
         <div className='flex flex-col justify-between shadow-xl md:w-1/2 h-[500px] lg:h-[650px] rounded-xl '>
@@ -109,7 +109,7 @@ const SingleProductDetails = () => {
             </div>
            </div>
             </div>
-            <div className=' w-full h-[20%] grid grid-cols-3 gap-2'>
+            <div className=' w-full h-[20%] grid grid-cols-3 gap-2 mt-2'>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={deliveryIcon} alt='icon' />
                     <p className='text-base font-sans'>2-4 days delivery</p>
@@ -129,7 +129,7 @@ const SingleProductDetails = () => {
 
 {/* Description section */}
 
-      <div className=' w-full py-2 flex flex-col gap-3 mt-12'>
+      <div className=' w-full py-2 flex flex-col gap-3 md:mt-12'>
                         <div id='description' className='w-full h-fit  p-2  border-zinc-700  border-t-[1px] '>
                             <div className='flex justify-between items-center text-base md:text-xl lg:text-2xl text-zinc-900 font-average' onClick={toggleDescription}>
                                 <p className='text-zinc-900 font-junge'>Description</p>

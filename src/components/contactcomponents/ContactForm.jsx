@@ -105,8 +105,8 @@ function ContactForm() {
             <div className='w-1/2 h-full px-5'>
             <div onClick={() => setIsSubmitted(false)} className='w-fit mt-2  cursor-pointer float-right right-10 text-2xl'><IoCloseOutline /></div>
             <div className='flex flex-col h-full items-center justify-center self-center'>
-                <h2 className='text-4xl font-italiana'>Message Recieved!</h2>
-                <p className='text-center text-zinc-600 font-sans font-thin'>Thank you for taking time to send us a meesage! Our team will respond you as quiclky as possible!  </p>
+                <h2 className='text-2xl md:text-4xl text-cennter font-italiana'>Message Recieved!</h2>
+                <p className='text-xs md:text-base text-center text-zinc-600 font-sans font-thin'>Thank you for taking time to send us a meesage! Our team will respond you as quiclky as possible!  </p>
             </div>
             </div>
           </div>
