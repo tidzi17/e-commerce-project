@@ -114,7 +114,7 @@ const ProductsLayout = () => {
        {/* PRODUCTS LAYOUT */}
       <div className='w-full flex flex-col'>
         <div className='w-fit flex flex-col justify-center m-auto'>
-          <div className='flex flex-wrap gap-1 md:gap-5 justify-between   min845:justify-start items-left m-auto'>
+          <div className='flex flex-wrap gap-1 md:gap-5 justify-left   min845:justify-start items-left m-auto'>
             {currentProducts.map((prod) => (
               <ProductCard
                 prod={prod}
