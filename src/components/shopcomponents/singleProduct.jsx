@@ -111,15 +111,15 @@ const SingleProductDetails = () => {
             </div>
             <div className=' w-full h-[20%] grid grid-cols-3 gap-2 mt-2'>
                 <div className='flex flex-col items-center justify-center'>
-                    <img src={deliveryIcon} alt='icon' />
+                    <img src={deliveryIcon} alt='icon' className='w-[64px] h-[64px]'/>
                     <p className='text-base font-sans'>2-4 days delivery</p>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                    <img src={refundIcon} alt='icon' />
+                    <img src={refundIcon} alt='icon' className='w-[64px] h-[64px]'/>
                     <p className='text-base font-sans'>30 days refund</p>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                    <img src={qualityIcon} alt='icon' />
+                    <img src={qualityIcon} alt='icon' className='w-[64px] h-[64px]'/>
                     <p className='text-base font-sans'>Best quality</p>
                 </div>
             </div>
