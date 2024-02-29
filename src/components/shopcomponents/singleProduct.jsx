@@ -109,7 +109,7 @@ const SingleProductDetails = () => {
             </div>
            </div>
             </div>
-            <div className=' w-full h-[20%] grid grid-cols-3 gap-2 mt-2'>
+            <div className=' w-full h-[20%] grid grid-cols-3 gap-2'>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={deliveryIcon} alt='icon' />
                     <p className='text-base font-sans'>2-4 days delivery</p>

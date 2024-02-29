@@ -34,8 +34,8 @@ const PopUp = () => {
             <div className='w-1/2 h-full px-5'>
             <div onClick={handleClose} className='w-fit mt-2  cursor-pointer float-right right-10 text-2xl'><IoCloseOutline /></div>
             <div className='flex flex-col h-full items-center justify-center self-center'>
-                <h2 className='text-4xl font-italiana'>Join our family</h2>
-                <p className='text-center text-zinc-600 font-sans font-thin'>Be first one to find out latest beauty news, offers and promos.</p>
+                <h2 className='text-4xl text-center font-italiana'>Join our family</h2>
+                <p className='text-center text-zinc-600 font-sans font-thin text-sm md:text-base'>Be first one to find out latest beauty news, offers and promos.</p>
                 <input
                   placeholder='Email adress'
                   className='w-full h-8 placeholder:font-thin pl-1 mt-5'/>
