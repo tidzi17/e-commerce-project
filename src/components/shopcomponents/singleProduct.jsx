@@ -109,18 +109,18 @@ const SingleProductDetails = () => {
             </div>
            </div>
             </div>
-            <div className=' w-full h-[64px] grid grid-cols-3 gap-2 mt-2'>
+            <div className=' w-full h-[64px] grid grid-cols-3 gap-2 mt-6 md:mt-2'>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={deliveryIcon} alt='icon' className='w-[64px] h-[64px]'/>
-                    <p className='text-base font-sans'>2-4 days delivery</p>
+                    <p className='text-sm md:text-base font-sans'>2-4 days delivery</p>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={refundIcon} alt='icon' className='w-[64px] h-[64px]'/>
-                    <p className='text-base font-sans'>30 days refund</p>
+                    <p className='text-sm md:text-base  font-sans'>30 days refund</p>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={qualityIcon} alt='icon' className='w-[64px] h-[64px]'/>
-                    <p className='text-base font-sans'>Best quality</p>
+                    <p className='text-sm md:text-base  font-sans'>Best quality</p>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@ const SingleProductDetails = () => {
 
 {/* Description section */}
 
-      <div className=' w-full py-2 flex flex-col gap-3 md:mt-12'>
+      <div className=' w-full py-2 flex flex-col gap-3 mt-6 md:mt-12'>
                         <div id='description' className='w-full h-fit  p-2  border-zinc-700  border-t-[1px] '>
                             <div className='flex justify-between items-center text-base md:text-xl lg:text-2xl text-zinc-900 font-average' onClick={toggleDescription}>
                                 <p className='text-zinc-900 font-junge'>Description</p>
