@@ -12,25 +12,24 @@ export default function FeaturedCaths() {
             <h2 className='uppercase text-3xl mb-5 font-italiana text-right text-black/70'>Trending</h2>
            </div>
             <div className='w-full h-[650px] md:h-[500px] xl:h-[600px] flex-col  flex md:flex-row justify-between gap-5'>
-
-                <div className='rounded-2xl relative  w-[100%] flex flex-col items-center overflow-hidden'>
+                <a href="/products/face" className='rounded-2xl relative  w-[100%] flex flex-col items-center overflow-hidden'>
                     <img src={img1} alt="" className='rounded-2xl w-[100%] h-[100%] object-cover transform ease-in-out duration-500 hover:scale-110'/>
                     <p
                      className='absolute bottom-5 left-2 text-white/60 text-4xl font-extrabold'
                      >Face.</p>
-                </div>
-                <div className='rounded-2xl relative  w-[100%] flex flex-col items-center overflow-hidden'>
+                </a>
+                <a href="/products/body" className='rounded-2xl relative  w-[100%] flex flex-col items-center overflow-hidden'>
                     <img src={img2} alt="" className='rounded-2xl w-[100%] h-[100%] object-cover transform ease-in-out duration-500 hover:scale-110'/>
                     <p
                      className='absolute bottom-5 left-2 text-white/60 text-4xl font-extrabold'
                      >Body.</p>
-                </div>
-                <div className='rounded-2xl relative  w-[100%] flex flex-col items-center overflow-hidden'>
+                </a>
+                <a href="/products/hair" className='rounded-2xl relative  w-[100%] flex flex-col items-center overflow-hidden'>
                     <img src={img3} alt="" className='rounded-2xl w-[100%] h-[100%] object-cover transform ease-in-out duration-500 hover:scale-110'/>
                     <p
                      className='absolute bottom-5 left-2 text-white/60 text-4xl font-extrabold'
                      >Hair.</p>
-                </div>
+                </a>
             </div>
 
         </div>

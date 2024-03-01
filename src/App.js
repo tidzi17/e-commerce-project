@@ -12,6 +12,7 @@ import MobileBottomBar from './components/mobileBottomBar';
 import Footer from './components/footer';
 import ProductPage from './pages/productPage';
 import Article from './pages/article'
+import ProductsLayout from './components/shopcomponents/products-main-layout';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       <Routes>
       <Route path="/" exact element={<Home />} />
       <Route path="/products" element={<Navigate to="/products/all" replace />} />
-      <Route path="/products/:category" element={<Shop />} />
+      <Route path="/products/:category" element={<ProductsLayout  />} />
       <Route path="/products/:cathegory/:id" element={<ProductPage />} />
       <Route path="/contact" exact element={<Contact />} />
       <Route path="/blog" exact element={<Blog />} />

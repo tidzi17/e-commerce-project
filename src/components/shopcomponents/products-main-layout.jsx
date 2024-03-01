@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import ProductCard from './productCard';
 import { useNavigate } from 'react-router-dom'; 
 import { CartState } from '../../context/Context';
@@ -13,17 +14,25 @@ const ProductsLayout = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
   const navigate = useNavigate(); 
+  const { category } = useParams(); 
+
+  useEffect(() => {
+    if (category) {
+      setSelectedCategory(category); 
+    }
+  }, [category]);
 
   const handleCategoryChange = (event) => {
-    const category = event.target.value;
-    setSelectedCategory(category);
-    setCurrentPage(1); // Reset current page when changing categories
-    navigate(`/products/${category}`, { replace: true }); 
+    const newCategory = event.target.value;
+    setSelectedCategory(newCategory);
+    setCurrentPage(1); 
+    navigate(`/products/${newCategory}`, { replace: true }); 
   };
 
   const filteredProducts = selectedCategory === 'all'
-    ? products
-    : products.filter(prod => prod.cathegory === selectedCategory);
+  ? products
+  : products.filter(prod => prod.cathegory === (category || selectedCategory));
+
 
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;

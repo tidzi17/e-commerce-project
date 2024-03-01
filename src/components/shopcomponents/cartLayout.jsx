@@ -10,14 +10,26 @@ const CartLayout = () => {
       } = CartState();
 
       const [total, setTotal] = useState();
+      const [couponCode, setCouponCode] = useState('');
+      const [discountedTotal, setDiscountedTotal] = useState(null);
     
       useEffect(() => {
         const newTotal = cart.reduce(
           (acc, curr) => acc + parseFloat(curr.price) * curr.qty,
           0
         );
-        setTotal(newTotal.toFixed(2)); 
+        setTotal(newTotal.toFixed(2));
       }, [cart]);
+    
+      const handleCouponSubmit = () => {
+        if (couponCode.toUpperCase() === 'HIREME11') {
+          const discountAmount = parseFloat(total) * 0.15;
+          const newTotal = parseFloat(total) - discountAmount;
+          setDiscountedTotal(newTotal.toFixed(2));
+        } else {
+          alert('Invalid coupon code');
+        }
+      };
 
   return (
     <section className='py-10 mb-10'>
@@ -95,10 +107,14 @@ const CartLayout = () => {
        <h3 className='font-sans font-thin text-base md:text-2xl'>Have a coupon? Enter your code.</h3>
        <div className='flex w-full mt-10 gap-5'>
            <input
-            placeholder='Try HIREME11'
+           type="text"
+           id="coupon"
+           value={couponCode}
+           onChange={(e) => setCouponCode(e.target.value)}
+            placeholder='Try HIREME11 and get 15% off'
             className='outline-none bg-transparent border-b-[1px] border-black w-1/3 md:h-7 '/>
            <button
-
+           onClick={handleCouponSubmit}
            className='font-sans font-thin uppercase border-[1px] border-black outline-none text-sm md:text-xl px-6'
            >Apply</button>
        </div>
@@ -127,7 +143,12 @@ const CartLayout = () => {
            <p>Total:</p>
            <p className='font-medium'>${total}</p>
        </div>
-
+       {discountedTotal && 
+              <div className='flex w-full justify-between font-sans text-lg'>
+       <p >Discounted Total:</p>
+       <p>${discountedTotal}</p>
+       </div>
+       }
        </div>
 
        <div className='flex flex-col items-center w-full'>
