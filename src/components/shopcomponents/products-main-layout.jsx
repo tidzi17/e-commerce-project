@@ -7,7 +7,6 @@ import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import { IoCloseOutline } from 'react-icons/io5'
 import clsx from 'clsx';
 import Filters from './filters';
-import Rating from './ratings';
 
 const ProductsLayout = () => {
   const { state: { products },
