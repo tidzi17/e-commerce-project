@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useReducer, useEffect } from "react";
 import productsData from '../data/products.json';
-import { cartReducer } from './Reducers';
+import { cartReducer, productReducer } from './Reducers';
 
 const Cart = createContext();
 
@@ -23,7 +23,12 @@ const Context = ({ children }) => {
     localStorage.setItem('wishlist', JSON.stringify(state.wishlist));
   }, [state.wishlist]);
 
-  return <Cart.Provider value={{ state, dispatch }}>{children}</Cart.Provider>;
+  const [productState, productDispatch] = useReducer(productReducer, {
+    byRating: 0,
+  });
+
+
+  return <Cart.Provider value={{ state, dispatch, productState, productDispatch }}>{children}</Cart.Provider>;
 };
 
 export const CartState = () => {

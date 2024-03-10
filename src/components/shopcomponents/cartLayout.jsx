@@ -158,7 +158,8 @@ const CartLayout = () => {
        >Checkout</button>
 
        
-       <ArrowButton text="Continue Shopping"/></div>
+       <a href="/products"><ArrowButton text="Continue Shopping"/></a>
+       </div>
      </div>
  </div>
            </div>

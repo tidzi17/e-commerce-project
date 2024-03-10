@@ -8,6 +8,7 @@ import refundIcon from '../../assets/icons/product-return.png';
 import qualityIcon from '../../assets/icons/service.png';
 import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
+import Rating from './ratings';
 
 const SingleProductDetails = () => {
 
@@ -77,7 +78,7 @@ const SingleProductDetails = () => {
         <div className='md:w-1/2 text-zinc-900 flex flex-col md:justify-around md:px-10'>
             <div>
                 <h1 className='font-junge mt-2 md:mt-0 text-xl md:text-2xl lg:text-3xl'>{product.title}</h1>
-                <div><span>Stars</span></div>
+                <div><Rating rating={product.ratings}/></div>
                 <p className='font-sans text-black/70  text-lg'>${product.price}</p>
                 </div>
 
@@ -109,7 +110,7 @@ const SingleProductDetails = () => {
             </div>
            </div>
             </div>
-            <div className=' w-full h-[64px] grid grid-cols-3 gap-2 mt-6 md:mt-2'>
+            <div className=' w-full h-[64px] grid grid-cols-3 gap-2 mt-6 md:mt-'>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={deliveryIcon} alt='icon' className='w-[64px] h-[64px]'/>
                     <p className='text-sm md:text-base font-sans'>2-4 days delivery</p>

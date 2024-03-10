@@ -2,6 +2,7 @@ import React from 'react'
 import { CartState } from '../../context/Context'
 import { AddToWishlist } from './buttons';
 import { RemoveFromWishlist } from './buttons';
+import Rating from './ratings';
 
 const ProductCard = ( { prod }) => {
   const { state: { cart, wishlist } } = CartState();
@@ -15,6 +16,7 @@ const ProductCard = ( { prod }) => {
 
        <div className='flex flex-col gap-1'>
         <p className='uppercase text-xs text-zinc-400'>{prod.cathegory}</p>
+        <span><Rating rating={prod.ratings}/></span>
        <p className='uppercase text-xs md:text-sm text-black'>{prod.title}</p>
         <p className='text-xs md:text-sm text-black font-semibold'>${prod.price}</p>
        </div>

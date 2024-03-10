@@ -6,15 +6,37 @@ import { CartState } from '../../context/Context';
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import { IoCloseOutline } from 'react-icons/io5'
 import clsx from 'clsx';
+import Filters from './filters';
+import Rating from './ratings';
 
 const ProductsLayout = () => {
-  const { state: { products }} = CartState();
+  const { state: { products },
+  productState: {byRating, sort}} = CartState();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [ filtersOpen, setFilters ] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
   const navigate = useNavigate(); 
   const { category } = useParams(); 
+
+  const transformProducts = () => {
+    let sortedProducts = products;
+
+    if (sort) {
+      sortedProducts = sortedProducts.sort((a, b) => 
+      sort === "lowToHigh" ? a.price - b.price : b.price - a.price
+      );
+    }
+
+
+    if (byRating) {
+      sortedProducts = sortedProducts.filter(
+        (prod) => prod.ratings >= byRating
+      );
+    }
+
+    return sortedProducts;
+  }
 
   useEffect(() => {
     if (category) {
@@ -30,8 +52,8 @@ const ProductsLayout = () => {
   };
 
   const filteredProducts = selectedCategory === 'all'
-  ? products
-  : products.filter(prod => prod.cathegory === (category || selectedCategory));
+  ? transformProducts()
+  : transformProducts().filter(prod => prod.cathegory === (category || selectedCategory));
 
 
   const indexOfLastProduct = currentPage * productsPerPage;
@@ -73,9 +95,21 @@ const ProductsLayout = () => {
       <div className='w-full h-auto flex flex-col  justify-between'>
 
      {/* FILTERS */}
-      <div onClick={() => setFilters(true)} className='cursor-pointer flex items-center mt-5 mb-6 gap-5'>
-       <h4 className='font-sans font-light text-2xl text-black'>Filter Products</h4>
-     <span className='text-2xl text-black'><HiOutlineAdjustmentsHorizontal /></span>
+      <div className=' flex items-center justify-between mt-5 mb-6 gap-5'>
+      <div onClick={() => setFilters(true)}  className='flex items-center cursor-pointer gap-5'>
+      <h4 className='font-sans font-light text-2xl text-black'>Filter Products</h4> 
+      <HiOutlineAdjustmentsHorizontal className='text-2xl self-center text-black'/>
+      </div>
+     
+<div >
+  <select value={selectedCategory} onChange={handleCategoryChange} className='outline-none mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-black text-base'>
+  <option className='text-black' value="all">All</option>
+  <option className='text-black' value="face">Face</option>
+  <option className='text-black' value="hair">Hair</option>
+  <option className='text-black' value="body">Body</option>
+
+</select>
+</div>
        </div>
 
        <div className={clsx("fixed h-full -translate-x-full transition-all w-screen  bg-black/50 backdrop-blur-sm top-0 right-0 z-40", filtersOpen && 'translate-x-0')}>
@@ -87,36 +121,10 @@ const ProductsLayout = () => {
 <span className='text-2xl'><HiOutlineAdjustmentsHorizontal /></span>
 </div>
 
+<Filters />
 
 
-<div >
-  <h5 className='text-base uppercase'>Select Cathegory</h5>
-  <select value={selectedCategory} onChange={handleCategoryChange} className='mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-white text-base'>
-  <option className='text-black' value="all">All</option>
-  <option className='text-black' value="face">Face</option>
-  <option className='text-black' value="hair">Hair</option>
-  <option className='text-black' value="body">Body</option>
 
-</select>
-</div>
-
-<div >
-  <h5 className='text-base uppercase'>Price</h5>
-  <select value={selectedCategory} onChange={handleCategoryChange} className='mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-white text-base'>
-  <option className='text-black' value="all">Incrase</option>
-  <option className='text-black' value="face">Dicrase</option>
-  
-
-</select>
-</div>
-
-<div >
-  <h5 className='text-base uppercase'>Ratings</h5>
-  <select value={selectedCategory} onChange={handleCategoryChange} className='mt-5 pb-2 px-5 bg-transparent w-full border-b-[1px] border-white text-base'>
-  <option className='text-black' value="all">Incrase</option>
-  <option className='text-black' value="face">Dicrase</option>
-</select>
-</div>
              </div>
         </div>
 

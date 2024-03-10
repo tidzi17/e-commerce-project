@@ -16,7 +16,7 @@
     "pageDescription": "Our Hydrating Hyaluronic Acid Serum is a lightweight, fast-absorbing formula that delivers intense hydration to the skin. With its powerful blend of hyaluronic acid and botanical extracts, it replenishes moisture, improves skin texture, and reduces the appearance of fine lines and wrinkles. Say hello to smooth, supple skin with our hydrating serum.",
     "ingredients": "Hyaluronic Acid Vitamin C Aloe Vera Green Tea Extract",
     "usage": "Apply a few drops to clean, dry skin every morning and evening, gently patting until fully absorbed. Follow with your favorite moisturizer.",
-    "stars": 3
+    "ratings": 3
   },
   {
     "id": "Brightening Vitamin C Serum",
@@ -33,7 +33,7 @@
     "pageDescription": "Our Brightening Vitamin C Serum is a powerful antioxidant-rich formula that targets hyperpigmentation and dullness to reveal a brighter, more even complexion. With its high concentration of vitamin C and other skin-brightening ingredients, it reduces the appearance of dark spots, sun damage, and discoloration, leaving your skin luminous and radiant.",
     "ingredients": "Vitamin C Turmeric Extract Licorice Extract Ginseng Extract",
     "usage": "Apply a small amount to clean, dry skin every morning and evening, massaging gently until fully absorbed. Follow with sunscreen during the day.",
-    "stars": 4
+    "ratings": 4
   },
   {
     "id": "Anti-Aging Retinol Serum",
@@ -50,7 +50,7 @@
     "pageDescription": "Our Anti-Aging Retinol Serum is a potent formula that targets signs of aging to reveal smoother, firmer skin. With its high concentration of retinol and other anti-aging ingredients, it stimulates collagen production, improves skin texture, and diminishes the appearance of fine lines and wrinkles. Say hello to a youthful, radiant complexion with our advanced retinol serum.",
     "ingredients": "Retinol Peptides Hyaluronic Acid Vitamin E",
     "usage": "Apply a pea-sized amount to clean, dry skin every evening, avoiding the eye area. Follow with moisturizer if needed. Start with 2-3 times a week and gradually increase frequency as tolerated.",
-    "stars": 5
+    "ratings": 5
   },
   {
     "id": "Soothing Niacinamide Serum",
@@ -67,7 +67,7 @@
     "pageDescription": "Our Soothing Niacinamide Serum is a gentle yet effective formula that targets skin concerns such as redness, irritation, and enlarged pores. With its high concentration of niacinamide and calming botanicals, it strengthens the skin barrier, reduces inflammation, and balances oil production, leaving your skin smooth, calm, and blemish-free.",
     "ingredients": "Niacinamide Chamomile Extract Calendula Extract Green Tea Extract",
     "usage": "Apply a few drops to clean, dry skin every morning and evening, gently patting until fully absorbed. Follow with moisturizer if needed.",
-    "stars": 5
+    "ratings": 5
   },
   {
     "id": "Moisture-Boosting Ceramide Serum",
@@ -84,7 +84,7 @@
     "pageDescription": "Our Moisture-Boosting Ceramide Serum is a nourishing formula that strengthens the skin barrier to prevent moisture loss and improve hydration levels. With its potent blend of ceramides, hyaluronic acid, and botanical extracts, it replenishes dry, dehydrated skin, leaving it soft, smooth, and revitalized.",
     "ingredients": "Ceramides Hyaluronic Acid Centella Asiatica Extract Rosehip Oil",
     "usage": "Apply a small amount to clean, dry skin every morning and evening, gently massaging until fully absorbed. Follow with moisturizer if needed.",
-    "stars": 1
+    "ratings": 1
   },
 
 {
@@ -102,7 +102,7 @@
   "pageDescription": "Our Hydrating Day Cream is a lightweight, non-greasy formula that deeply hydrates and nourishes the skin. Infused with hyaluronic acid and vitamin E, it locks in moisture and improves skin elasticity, leaving your skin feeling soft, smooth, and refreshed. Perfect for daily use to keep your skin hydrated and glowing all day long.",
   "ingredients": "Hyaluronic Acid Vitamin E Shea Butter Jojoba Oil",
   "usage": "Apply to clean, dry skin every morning, massaging gently until fully absorbed. For best results, use in conjunction with our Hydrating Night Cream.",
-  "stars": 5
+  "ratings": 5
 },
 {
   "id": "Anti-Aging Night Cream",
@@ -119,7 +119,7 @@
   "pageDescription": "Our Anti-Aging Night Cream is a luxurious blend of retinol and peptides that works overnight to repair and renew your skin. This rich, velvety cream diminishes signs of aging, boosts collagen production, and improves skin texture, revealing a smoother, firmer complexion. Wake up to visibly younger-looking skin with our intensive night treatment.",
   "ingredients": "Retinol Peptides Vitamin C Argan Oil",
   "usage": "Apply to clean, dry skin every evening, gently massaging into face and neck until fully absorbed. For optimal results, use after cleansing and toning.",
-  "stars": 5
+  "ratings": 5
 },
 
 
@@ -139,7 +139,7 @@
     "pageDescription": "Our Nourishing Argan Hair Oil is a luxurious blend of Argan oil, rich in antioxidants and vitamins, to deeply moisturize and repair damaged hair. This lightweight formula absorbs quickly, leaving your hair feeling silky smooth with a healthy shine. Suitable for all hair types.",
     "ingredients": "Argan Oil Coconut Oil Jojoba Oil Vitamin E",
     "usage": "Apply a small amount to damp or dry hair, focusing on mid-lengths to ends. Style as usual. For best results, use daily or as needed.",
-    "stars": 2
+    "ratings": 2
 },
 {
   "id": "HydratingCoconutHairOil",
@@ -156,7 +156,7 @@
   "pageDescription": "Indulge your hair with our Hydrating Coconut Hair Oil, enriched with natural coconut extract to deeply hydrate and condition dry, brittle hair. This non-greasy formula penetrates deeply to replenish moisture, leaving your hair soft, smooth, and manageable. Perfect for those in need of a hydration boost.",
   "ingredients": "Coconut Oil Sweet Almond Oil Avocado Oil Vitamin B5",
   "usage": "Warm a small amount between your palms and distribute evenly through damp or dry hair. Style as desired. Use regularly for best results.",
-  "stars": 3
+  "ratings": 3
 },
 
 {
@@ -174,7 +174,7 @@
   "pageDescription": "Our Strengthening Castor Hair Oil is a powerful blend of castor oil and botanical extracts, specially formulated to nourish the scalp and strengthen hair from root to tip. This nutrient-rich oil promotes hair growth, reduces split ends, and prevents breakage, leaving your hair longer, thicker, and more resilient.",
   "ingredients": "Castor Oil  Rosemary Extract  Peppermint Oil Biotin",
   "usage": "Massage a small amount into the scalp and through the lengths of damp or dry hair. Leave in overnight for an intensive treatment or wash out after 30 minutes for regular use. Use 2-3 times a week for optimal results.",
-  "stars": 4
+  "ratings": 4
 },
 
 
@@ -193,7 +193,7 @@
   "pageDescription": "Our Revitalizing Rosehip Body Oil is a decadent blend of rosehip oil, rich in vitamins and antioxidants, to deeply moisturize and improve skin elasticity. Infused with a delicate rose scent, this lightweight formula absorbs quickly, leaving your skin feeling velvety soft and looking radiant. Perfect for all skin types in need of a revitalizing boost.",
   "ingredients": "Rosehip Oil Jojoba Oil Grapeseed Oil Vitamin C",
   "usage": "Apply a few drops onto damp skin after showering or bathing. Massage gently until fully absorbed. For best results, use daily or as needed.",
-  "stars": 4
+  "ratings": 4
 },
 
 {
@@ -211,7 +211,7 @@
   "pageDescription": "Our Soothing Lavender Body Oil is a harmonious blend of lavender essential oil and botanical extracts, designed to hydrate and soothe dry, irritated skin. This gentle formula absorbs quickly, leaving your skin feeling deeply nourished and delicately scented with the calming aroma of lavender. Ideal for promoting relaxation and enhancing your self-care routine.",
   "ingredients": "Lavender Essential Oil Sweet Almond Oil Chamomile Extract Vitamin E",
   "usage": "Warm a small amount between your palms and massage onto clean, dry skin until fully absorbed. Use after bathing or whenever your skin needs a calming treat.",
-  "stars": 5
+  "ratings": 5
 },
 
 
@@ -234,7 +234,7 @@
   "pageDescription": "Our Daily Defense SPF 30 Moisturizer is a multi-tasking powerhouse that combines sun protection with intense hydration. Enriched with antioxidants and botanical extracts, this lightweight formula defends against environmental stressors while replenishing moisture for a soft, supple complexion. Perfect for daily use to keep your skin protected and radiant.",
   "ingredients": "Octinoxate Octisalate Avobenzone Hyaluronic Acid Green Tea Extract",
   "usage": "Apply liberally to clean, dry skin every morning, 15 minutes before sun exposure. Reapply as needed, especially after swimming or sweating. For best results, use in conjunction with your regular skincare routine.",
-  "stars": 5
+  "ratings": 5
 },
 
 
@@ -253,7 +253,7 @@
   "pageDescription": "Our Ultra-Lightweight SPF 50 Sunscreen provides maximum sun protection in a weightless, fast-absorbing formula. Infused with antioxidants and vitamin E, it shields your skin from harmful UV rays while defending against free radicals and premature aging. The sheer, non-comedogenic formula leaves no white cast, making it suitable for all skin tones and types.",
   "ingredients": "Octocrylene Homosalate Octisalate Avobenzone Vitamin E",
   "usage": "Apply generously to face and neck as the last step in your skincare routine, 15 minutes before sun exposure. Reapply at least every 2 hours or after swimming or sweating. Can be worn alone or under makeup.",
-  "stars": 4
+  "ratings": 4
 },
 
 
@@ -275,7 +275,7 @@
   "pageDescription": "Our Moisture Renewal Conditioner is specially formulated to replenish dry, thirsty hair with intense hydration. Enriched with a blend of argan oil and shea butter, it restores softness and manageability while repairing split ends and preventing breakage. Say goodbye to dull, frizzy hair and hello to luscious locks with our luxurious conditioner.",
   "ingredients": "Argan Oil Shea Butter Coconut Oil Hyaluronic Acid",
   "usage": "After shampooing, apply a generous amount to wet hair, focusing on mid-lengths to ends. Leave on for 2-3 minutes, then rinse thoroughly. For best results, use with our Moisture Renewal Shampoo.",
-  "stars": 3
+  "ratings": 3
 },
 {
   "id": "Repair & Strengthen Conditioner",
@@ -292,7 +292,7 @@
   "pageDescription": "Our Repair & Strengthen Conditioner is designed to repair and fortify damaged hair from within. Infused with keratin protein and biotin, it strengthens the hair shaft, reduces split ends, and improves elasticity for hair that's visibly healthier and more resilient. Say hello to strong, beautiful hair with our nourishing conditioner.",
   "ingredients": "Keratin Protein Biotin Castor Oil Vitamin B5",
   "usage": "After shampooing, apply a generous amount to wet hair, focusing on damaged areas. Leave on for 3-5 minutes, then rinse thoroughly. For best results, use regularly as part of your hair care routine.",
-  "stars": 2
+  "ratings": 2
 },
 {
   "id": "Volume Boost Conditioner",
@@ -309,7 +309,7 @@
   "pageDescription": "Our Volume Boost Conditioner is the secret to achieving salon-worthy volume at home. Formulated with a blend of collagen and panthenol, it plumps each strand from root to tip, providing long-lasting lift and body without weighing hair down. Say goodbye to flat, lifeless locks and hello to luxuriously voluminous hair with our transformative conditioner.",
   "ingredients": "Collagen Panthenol Biotin Vitamin E",
   "usage": "After shampooing, apply a small amount to wet hair, focusing on roots and lengths. Leave on for 1-2 minutes, then rinse thoroughly. For maximum volume, pair with our Volume Boost Shampoo.",
-  "stars": 5
+  "ratings": 5
 },
 
 
@@ -331,7 +331,7 @@
   "pageDescription": "Our Hydrating Argan Oil Shampoo is enriched with a luxurious blend of argan oil and vitamins to nourish and hydrate your hair from root to tip. This gentle formula effectively cleanses while replenishing moisture, leaving your hair soft, shiny, and manageable. Say hello to healthy, hydrated hair with our rejuvenating shampoo.",
   "ingredients": "Argan Oil Vitamin E Pro-Vitamin B5 Coconut Oil",
   "usage": "Apply to wet hair, lather, and rinse thoroughly. For best results, follow with our Hydrating Argan Oil Conditioner.",
-  "stars": 4
+  "ratings": 4
 },
 {
   "id": "Volumizing Biotin Shampoo",
@@ -348,7 +348,7 @@
   "pageDescription": "Our Volumizing Biotin Shampoo is infused with biotin, collagen, and keratin to promote hair growth, strengthen the hair shaft, and add thickness and volume. This lightweight formula gently cleanses while nourishing the scalp and hair follicles, leaving your hair looking and feeling healthier and fuller. Say goodbye to flat, lifeless locks and hello to beautiful, voluminous hair with our revitalizing shampoo.",
   "ingredients": "Biotin Collagen Keratin Vitamin B5",
   "usage": "Massage into wet hair, lather, and rinse thoroughly. For best results, follow with our Volumizing Biotin Conditioner.",
-  "stars": 1
+  "ratings": 1
 },
 {
   "id": "Soothing Tea Tree Shampoo",
@@ -365,7 +365,7 @@
   "pageDescription": "Our Soothing Tea Tree Shampoo is formulated with tea tree oil, peppermint, and eucalyptus to calm and purify the scalp, eliminating dryness, itchiness, and flakiness. This refreshing formula effectively removes buildup and impurities while promoting healthy hair growth, leaving your scalp feeling clean and revitalized. Say goodbye to scalp irritation and hello to a fresh, invigorated scalp with our soothing shampoo.",
   "ingredients": "Tea Tree Oil Peppermint Eucalyptus Vitamin E",
   "usage": "Apply to wet hair, massage into the scalp, and rinse thoroughly. For best results, follow with our Soothing Tea Tree Conditioner.",
-  "stars": 2
+  "ratings": 2
 },
 {
   "id": "Color-Protecting Coconut Shampoo",
@@ -382,7 +382,7 @@
   "pageDescription": "Our Color-Protecting Coconut Shampoo is specially formulated to extend the life of your hair color while nourishing and moisturizing your locks. Infused with coconut oil and vitamins, this gentle formula seals the hair cuticle, locking in color and preventing fading, while leaving your hair soft, shiny, and vibrant. Say hello to salon-worthy color and shine with our protective shampoo.",
   "ingredients": "Coconut Oil Vitamin E Pro-Vitamin B5 Keratin",
   "usage": "Massage into wet hair, lather, and rinse thoroughly. For best results, follow with our Color-Protecting Coconut Conditioner.",
-  "stars": 3
+  "ratings": 3
 },
 {
   "id": "Clarifying Charcoal Shampoo",
@@ -399,7 +399,7 @@
   "pageDescription": "Our Clarifying Charcoal Shampoo is infused with activated charcoal, tea tree oil, and peppermint to deeply cleanse and purify the scalp and hair. This detoxifying formula effectively removes excess oil, product buildup, and environmental pollutants, leaving your hair feeling squeaky clean and refreshed. Say goodbye to dull, lackluster locks and hello to clean, revitalized hair with our clarifying shampoo.",
   "ingredients": "Activated Charcoal Tea Tree Oil Peppermint Vitamin E",
   "usage": "Apply to wet hair, lather, and massage into the scalp. Rinse thoroughly. For best results, follow with our Clarifying Charcoal Conditioner.",
-  "stars": 4
+  "ratings": 4
 },
 
 
@@ -438,7 +438,7 @@
   "pageDescription": "Our Soothing Aloe Vera Body Lotion is a lightweight, non-greasy formula that provides instant relief to dry, irritated skin. Enriched with pure aloe vera, chamomile, and calendula extracts, it replenishes moisture, soothes redness, and promotes healing for a healthy, radiant glow. Treat your skin to the calming benefits of our soothing body lotion for a revitalized complexion.",
   "ingredients": "Aloe Vera Chamomile Extract Calendula Extract Vitamin E",
   "usage": "Smooth onto clean, dry skin, focusing on areas of dryness or irritation. Reapply as needed throughout the day.",
-  "stars": 5
+  "ratings": 5
 },
 {
   "id": "Firming Collagen Body Lotion",
@@ -455,7 +455,7 @@
   "pageDescription": "Our Firming Collagen Body Lotion is a luxurious formula that targets sagging, aging skin to reveal a firmer, more toned complexion. Infused with collagen, elastin, and hyaluronic acid, it hydrates and plumps the skin, reducing the appearance of fine lines and wrinkles. Rejuvenate your skin with our firming body lotion for a visibly smoother, more youthful-looking body.",
   "ingredients": "Collagen Elastin Hyaluronic Acid Vitamin ",
   "usage": "Massage onto clean, dry skin, focusing on areas prone to sagging or dryness. Use daily for best results.",
-  "stars": 4
+  "ratings": 4
 },
 {
   "id": "Rejuvenating Coconut Body Lotion",
@@ -472,7 +472,7 @@
   "pageDescription": "Our Rejuvenating Coconut Body Lotion is a lightweight, fast-absorbing formula that transports your senses to a tropical paradise. Enriched with coconut oil, shea butter, and vitamin E, it hydrates and softens the skin, leaving it feeling smooth, supple, and delicately scented. Treat yourself to a daily dose of hydration with our rejuvenating body lotion for a radiant, sun-kissed complexion.",
   "ingredients": "Coconut Oil Shea Butter Vitamin E Almond Oil",
   "usage": "Smooth onto clean, dry skin, massaging gently until fully absorbed. Reapply throughout the day as needed.",
-  "stars": 2
+  "ratings": 2
 },
 
 
@@ -492,7 +492,7 @@
   "pageDescription": "Our Moisturizing Shea Butter Body Wash is a luxurious formula that nourishes and moisturizes the skin as it cleanses. Infused with shea butter, aloe vera, and chamomile extracts, it soothes dryness and irritation while promoting soft, smooth skin. Treat yourself to a spa-like experience with our indulgent body wash.",
   "ingredients": "Shea Butter Aloe Vera Chamomile Extract Coconut Oil",
   "usage": "Apply to wet skin, lather, and massage gently. Rinse thoroughly. For best results, follow with our Nourishing Shea Butter Body Lotion.",
-  "stars": 2
+  "ratings": 2
 },
 {
   "id": "Invigorating Tea Tree Body Wash",
@@ -509,7 +509,7 @@
   "pageDescription": "Our Invigorating Tea Tree Body Wash is a refreshing blend of tea tree oil, peppermint, and eucalyptus that invigorates the senses while cleansing the skin. With its purifying properties, it removes dirt, oil, and impurities without stripping the skin's natural moisture barrier, leaving you feeling clean, refreshed, and revitalized.",
   "ingredients": "Tea Tree Oil Peppermint Eucalyptus Vitamin E",
   "usage": "Apply to damp skin, lather, and massage over the body. Rinse thoroughly. For an extra-refreshing experience, follow with our Cooling Tea Tree Body Lotion.",
-  "stars": 5
+  "ratings": 5
 },
 {
   "id": "Soothing Lavender Body Wash",
@@ -526,7 +526,7 @@
   "pageDescription": "Our Soothing Lavender Body Wash is a gentle formula that soothes both the body and mind. With its calming blend of lavender oil, chamomile, and aloe vera, it cleanses the skin while promoting relaxation and stress relief. Indulge in a moment of serenity with our lavender-infused body wash.",
   "ingredients": "Lavender Oil Chamomile Extract Aloe Vera Vitamin E",
   "usage": "Apply to sponge, loofah, or hands and lather over wet skin. Rinse thoroughly. For a calming bath, add a few drops to running water and soak.",
-  "stars": 5
+  "ratings": 5
 },
 {
   "id": "Energizing Citrus Body Wash",
@@ -543,7 +543,7 @@
   "pageDescription": "Our Energizing Citrus Body Wash is a zesty blend of citrus extracts and vitamin C that awakens the senses while cleansing the skin. With its refreshing fragrance and invigorating formula, it removes impurities and revitalizes dull, tired skin, leaving you feeling refreshed and energized.",
   "ingredients": "Citrus Extracts Vitamin C Grapefruit Seed Extract Coconut Oil",
   "usage": "Apply to damp skin, lather, and massage over the body. Rinse thoroughly. For an extra burst of energy, follow with our Revitalizing Citrus Body Lotion.",
-  "stars": 3
+  "ratings": 3
 },
 
 
@@ -563,7 +563,7 @@
   "pageDescription": "Our Gentle Foaming Facial Cleanser is a lightweight, non-drying formula that effectively removes makeup, dirt, and oil while maintaining the skin's natural balance. Infused with soothing botanical extracts, it calms irritation and leaves your skin feeling clean, refreshed, and hydrated. Perfect for daily use to keep your complexion clear and radiant.",
   "ingredients": "Glycerin Aloe Vera Chamomile Extract Vitamin E",
   "usage": "Apply a small amount to wet skin, lather, and massage gently. Rinse thoroughly. For best results, follow with our Hydrating Facial Moisturizer.",
-  "stars": 3
+  "ratings": 3
 },
 {
   "id": "Purifying Tea Tree Face Wash",
@@ -580,7 +580,7 @@
   "pageDescription": "Our Purifying Tea Tree Face Wash is a refreshing gel cleanser that targets acne-prone skin to remove impurities and prevent breakouts. With its antibacterial properties, it purifies pores, controls excess oil production, and reduces inflammation for a clearer, more balanced complexion. Say goodbye to blemishes and hello to healthy, radiant skin with our purifying face wash.",
   "ingredients": "Tea Tree Oil Salicylic Acid Witch Hazel Vitamin E",
   "usage": "Massage onto damp skin, lather, and rinse thoroughly. Use morning and evening as part of your skincare routine.",
-  "stars": 2
+  "ratings": 2
 },
 
 
@@ -599,7 +599,7 @@
   "pageDescription": "Our Hydrating Cucumber Face Wash is a gentle yet effective cleanser that refreshes and revitalizes the skin. With its cooling cucumber extract and hydrating hyaluronic acid, it removes impurities while locking in moisture, leaving your skin feeling clean, soft, and hydrated. Treat your skin to the refreshing benefits of our cucumber-infused face wash for a luminous complexion.",
   "ingredients": "Cucumber Extract Hyaluronic Acid Green Tea Extract Vitamin C",
   "usage": "Apply to damp skin, massage gently, and rinse thoroughly. Use daily for best results, followed by your favorite moisturizer.",
-  "stars": 3
+  "ratings": 3
 },
 
 {
@@ -617,7 +617,7 @@
   "pageDescription": "Our Exfoliating Charcoal Face Wash is a purifying cleanser that draws out impurities and pollutants from the skin while gently exfoliating to reveal a brighter, smoother complexion. With its activated charcoal and natural exfoliants, it removes dirt, oil, and dead skin cells, leaving your skin feeling clean, refreshed, and revitalized. Say goodbye to dull, congested skin and hello to a fresh, radiant glow with our exfoliating face wash.",
   "ingredients": "Activated Charcoal Salicylic Acid Jojoba Beads Vitamin E",
   "usage": "Massage onto wet skin, focusing on areas of congestion and congestion. Rinse thoroughly. Use 2-3 times a week for best results, followed by your favorite moisturizer.",
-  "stars": 5
+  "ratings": 5
 }
 
 ]
